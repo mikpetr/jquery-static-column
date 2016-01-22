@@ -1,0 +1,31 @@
+.red {
+  color: red;
+}
+
+.link {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.table-wrapper {
+  position: relative;
+}
+
+.table-container {
+  width:350px;
+  overflow-x: auto;
+}
+
+.table-wrapper .left-table {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.table-wrapper table {
+    border-spacing: 0px;
+}
+
+.table-wrapper table * {
+    box-sizing: border-box;
+}
